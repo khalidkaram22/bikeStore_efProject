@@ -148,7 +148,6 @@ Computer Science & Artificial Intelligence Graduate
 
 Backend & Mobile Developer
 
-GitHub: [https://github.com/YOUR_USERNAME](https://github.com/khalidkaram22/bikeStore_EF_core.git)
 
 ---
 
