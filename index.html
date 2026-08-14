@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Example</title>
+</head>
+<body>
+
+    <h1>HTML Form Example</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>User Information</legend>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+        </fieldset>
+
+        <br>
+   <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" rows="4" cols="45"></textarea>
+            <br><br>
+        </fieldset>
+
+        <br>
+
+ 
+        <fieldset>
+            <legend>Subscription</legend>
+
+            <label for="subscribe1">Subscribe to newsletter:</label>
+            <input type="checkbox" id="subscribe1">
+            <br>
+
+            <label for="subscribe2">Subscribe to newsletter:</label>
+            <input type="checkbox" id="subscribe2">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Preferred Language</legend>
+
+            <label for="language">Select your preferred language:</label>
+
+            <select id="language">
+                <option>English</option>
+                <option>Spanish</option>
+                <option>French</option>
+                <option>German</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Feedback</legend>
+
+            <label for="rating">Rate our service:</label>
+
+            <input type="range"
+                   id="rating"
+                   min="0"
+                   max="10"
+                   value="5">
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
