@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/html_task/">
+    <File Path="index.html" />
+  </Folder>
   <Project Path="BikeStoreEF/BikeStoreEF.csproj" />
 </Solution>
